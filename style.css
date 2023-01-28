@@ -1,0 +1,62 @@
+/* HEADER */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+
+/* PRODUCTS */
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid red;
+}
+
+.product-category {
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+
+}
+
+.product-container {
+  width: 50rem;
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  border: 2px solid red;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 150px;
+  margin-right: 40px;
+  border: 2px solid green;
+}
+
+
+
+
+
+
+
+
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+
+
